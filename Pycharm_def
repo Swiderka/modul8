@@ -1,0 +1,10 @@
+@app.route("/mypage/me")
+def mypage_me():
+   return render_template("strona1.html")
+
+@app.route("mypage/contact")
+def mypage_contact():
+   return render_template("strona2.html")
+ 
+if __name__:'__main__':
+    app.run()
